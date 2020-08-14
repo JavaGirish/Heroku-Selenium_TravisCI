@@ -11,7 +11,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class ExcelHelper {
 
-	public Object[][] getExcelData(String excellocation, String sheetName) {
+	public static Object[][] getExcelData(String excellocation, String sheetName) {
 		try {
 
 			Object dataSets[][] = null;
