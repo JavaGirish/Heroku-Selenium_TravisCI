@@ -1,5 +1,10 @@
 package com.heroku.qa.helpers;
 
+import java.util.NoSuchElementException;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.ElementNotVisibleException;
+import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -15,7 +20,7 @@ public class WaitHelper {
 	
 	public static void waitForElementToBeVisible(WebElement element) {
 		
-		WebDriverWait wait = new WebDriverWait(BrowserManager.getDriver(),Constants.IMPLICIT_WAIT);
+		WebDriverWait wait = getWait(Constants.timeOutInSeconds, Constants.pollingEveryInMillisec);
 		try {wait.until(ExpectedConditions.visibilityOf(element));}
 		catch(Exception e)
 		{
@@ -23,6 +28,20 @@ public class WaitHelper {
 		}
 		
 	}
+	
+	
+	public static WebDriverWait getWait(int timeOutInSeconds, int pollingEveryInMillisec)
+	{
+		WebDriverWait wait = new WebDriverWait(BrowserManager.getDriver(),timeOutInSeconds);
+		wait.pollingEvery(pollingEveryInMillisec, TimeUnit.SECONDS);
+		wait.ignoring(NoSuchElementException.class);
+		wait.ignoring(StaleElementReferenceException.class);
+		wait.ignoring(ElementNotVisibleException.class);
+		return wait;
+	}
+	
+	
+	
 	
 
 }

@@ -14,7 +14,6 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
-
 import com.heroku.qa.constants.Constants;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -26,6 +25,7 @@ public class Browser {
 	public static Properties prop;
 	public static ChromeOptions chromeOptions;
 	public FileInputStream inputStream;
+	
 
 	private Browser() {
 
@@ -66,7 +66,9 @@ public class Browser {
 		else {
 			System.out.println("Path of Driver Executable is not Set for any Browser");
 		}
-
+		
+		
+		
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().pageLoadTimeout(Constants.PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);

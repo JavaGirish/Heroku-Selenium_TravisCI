@@ -9,5 +9,8 @@ public class Constants {
 	public static final String HOME_PAGE_TITLE= "Computers database";
 	public static final String HOME_PAGE_HEADER= "Play sample application — Computer database";
 	
+	public static final int timeOutInSeconds= 15;
+	public static final int pollingEveryInMillisec= 1000;
+	
 
 }

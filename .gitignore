@@ -1,3 +1,4 @@
 allure-results
 allure-report
 test-output
+/target/
