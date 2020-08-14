@@ -40,7 +40,7 @@ public class DeleteComputerTest extends BaseClass {
 	@Description("Computer has been deleted successfully message will be displayed")
 	public void validateSuccessMessageTest() {
 		String successMsg = addCompPage.getSuccessMessage();
-		Assert.assertEquals(successMsg, "Done! Computer" +  " has been delete");
+		Assert.assertEquals(successMsg, "Done! Computer" +  " has been deleted");
 	}
 	
 
