@@ -5,7 +5,7 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import com.heroku.qa.base.BaseClass;
-
+import com.heroku.qa.constants.Constants;
 import com.heroku.qa.helpers.ExcelHelper;
 
 public class EditComputer extends BaseClass {
@@ -13,7 +13,7 @@ public class EditComputer extends BaseClass {
 	
 	@DataProvider
 	public Object[][] FetchTestData(){
-		Object data[][] = ExcelHelper.getExcelData("src/test/java/com/heroku/qa/testdata/DataSheet.xlsx", "Edit");;
+		Object data[][] = ExcelHelper.getExcelData(Constants.EXCEL_PATH, Constants.EDIT_DATA_WORKBOOK);
 		return data;
 	}
 	

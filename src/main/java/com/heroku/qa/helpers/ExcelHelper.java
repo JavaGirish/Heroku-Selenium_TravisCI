@@ -83,12 +83,7 @@ public class ExcelHelper {
 	}
 	
 	
-	public static void main(String[] args) {
-		ExcelHelper eh = new ExcelHelper();
-		
-		Object[][] data = eh.getExcelData("src/test/java/com/heroku/qa/testdata/DataSheet.xlsx", "Data");
-		System.out.println(data);
-	}
+	
 	
 	
 	

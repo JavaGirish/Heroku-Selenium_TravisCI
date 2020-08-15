@@ -6,6 +6,7 @@ import org.testng.annotations.Test;
 
 import com.heroku.qa.base.BaseClass;
 import com.heroku.qa.browser.Browser;
+import com.heroku.qa.constants.Constants;
 import com.heroku.qa.helpers.ExcelHelper;
 
 public class DeleteComputer extends BaseClass{
@@ -13,7 +14,7 @@ public class DeleteComputer extends BaseClass{
 	
 	@DataProvider
 	public Object[][] FetchTestData(){
-		Object data[][] = ExcelHelper.getExcelData("src/test/java/com/heroku/qa/testdata/DataSheet.xlsx", "Delete");
+		Object data[][] = ExcelHelper.getExcelData(Constants.EXCEL_PATH, Constants.DELETE_DATA_WORKBOOK);
 		return data;
 	}
 	
