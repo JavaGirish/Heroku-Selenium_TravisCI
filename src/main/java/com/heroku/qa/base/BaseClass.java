@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
@@ -13,6 +14,7 @@ import org.testng.annotations.BeforeClass;
 
 import com.heroku.qa.browser.Browser;
 import com.heroku.qa.browser.BrowserManager;
+import com.heroku.qa.helpers.LoggerHelper;
 import com.heroku.qa.helpers.WaitHelper;
 import com.heroku.qa.pages.AddComputerPage;
 import com.heroku.qa.pages.LandingPage;
@@ -31,6 +33,7 @@ public class BaseClass {
 	public WebDriver driver;
 	public LandingPage landingPage;
 	public AddComputerPage addCompPage;
+	private static final Logger log = LoggerHelper.getLogger(BaseClass.class);
 
 	/* Initializing BaseClass with driver */
 	protected BaseClass() {
@@ -40,22 +43,45 @@ public class BaseClass {
 
 	/* Generic method to Initialize all Page class objects */
 	public void initializePages() {
+		try {
 		landingPage = new LandingPage();
 		addCompPage = new AddComputerPage();
+		}
+		catch(Exception e) {
+			e.printStackTrace();
+			log.debug("Unable to initialize page classes");
+		}
 	}
 
 	/* Generic Method to click on a element */
 	public void clickOnElement(WebElement element) {
 		WaitHelper.waitForElementToBeVisible(element);
+		try {
 		element.click();
+		log.info("Clicked on element: " + element.toString());
+		}
+		
+		catch(Exception e) {
+			e.printStackTrace();
+			log.debug("Unable to click on element: " + element.toString());
+		}
 
 	}
 
 	/* Generic Method to enter text in a text field */
 	public void enterText(WebElement element, String value) {
 		WaitHelper.waitForElementToBeVisible(element);
+		try {
 		element.clear();
 		element.sendKeys(value);
+		log.info("Entered text: " + value.toString() + " in element: " + element.toString() );
+		}
+		
+		
+		catch(Exception e) {
+			e.printStackTrace();
+			log.debug("Unable to enter: " +  value.toString() + " in element: " + element.toString() );
+		}
 	}
 
 	/* Generic Method to get page title */
@@ -64,7 +90,19 @@ public class BaseClass {
 	}
 
 	public String getPageHeader(WebElement element) {
+		WaitHelper.waitForElementToBeVisible(element);
+		try {
+		log.info("Success message is displayed");
 		return element.getText();
+		}
+		
+		
+		catch(Exception e) {
+			e.printStackTrace();
+			log.info("Success Message is not displayed");
+		}
+		return null;
+		
 	}
 
 	/** Generic Method to select a value from drop down */
@@ -72,9 +110,12 @@ public class BaseClass {
 		Select select = new Select(element);
 		try {
 			select.selectByVisibleText(value);
-		} catch (Exception e) {
+			log.info(value.toString() + " has been selected from available dropdown options");
+		} 
+		
+		catch (Exception e) {
 			e.printStackTrace();
-			System.out.println("Value is not available in dropdown: " + value);
+			log.debug("Value is not available in dropdown option: " + value);
 		}
 
 	}
@@ -106,6 +147,7 @@ public class BaseClass {
 	@Step("Closing all browser sessions")
 	public void wrapUp() {
 		BrowserManager.getDriver().close();
+		log.info("Browser has been closed!!");
 	}
 
 	public static void LaunchTestReport() {

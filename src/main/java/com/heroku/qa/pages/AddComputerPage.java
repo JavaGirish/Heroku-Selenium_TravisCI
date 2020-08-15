@@ -2,13 +2,14 @@ package com.heroku.qa.pages;
 
 import java.util.List;
 
-
+import org.apache.log4j.Logger;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import com.heroku.qa.base.BaseClass;
 import com.heroku.qa.browser.BrowserManager;
+import com.heroku.qa.helpers.LoggerHelper;
 import com.heroku.qa.helpers.WaitHelper;
 
 import io.qameta.allure.Step;
@@ -20,6 +21,8 @@ import io.qameta.allure.Step;
  */
 
 public class AddComputerPage extends BaseClass {
+	
+	private static final Logger log = LoggerHelper.getLogger(AddComputerPage.class);
 
 	public AddComputerPage() {
 		PageFactory.initElements(BrowserManager.getDriver(), this);
@@ -115,22 +118,30 @@ public class AddComputerPage extends BaseClass {
 	}
 
 	/** Page Method to select Computer name displayed after user searches 
-	 * for a specific computer name*/
+	 * for a specific computer name
+	 * @return */
 	@Step("User selects the added company name: {0}")
 	public void selectComputerName(String name) {
-
+		boolean flag= false;
+		
 		for (WebElement ele : searchResultsLink) {
 
 			if (ele.getText().equalsIgnoreCase(name)) {
+				log.info("Found: " + name + " in Computer Name search results" );
 				ele.click();
+				log.info("Clicked on Computer Name: " + name);
+				flag= true;
 				break;
 			}
 
 			else {
-				System.out.println("Computer Name does not exist!!");
+				log.debug("Computer Name:" + name + " does not exist!!");
+				flag=false;
+				break;
 			}
 		}
-
+	
+		//return flag;
 	}
 	
 	/** Page Method to click Delete this computer button */

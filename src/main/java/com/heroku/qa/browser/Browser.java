@@ -7,14 +7,16 @@ import java.util.Collections;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
+
 import com.heroku.qa.constants.Constants;
+import com.heroku.qa.helpers.LoggerHelper;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -25,6 +27,7 @@ public class Browser {
 	public static Properties prop;
 	public static ChromeOptions chromeOptions;
 	public FileInputStream inputStream;
+	private final Logger log = LoggerHelper.getLogger(Browser.class);
 	
 
 	private Browser() {
@@ -76,6 +79,7 @@ public class Browser {
 		BrowserManager.setWebDriver(driver);
 
 		driver.get(prop.getProperty("url"));
+		log.info("URL has been opened: " + prop.getProperty("url"));
 
 	}
 

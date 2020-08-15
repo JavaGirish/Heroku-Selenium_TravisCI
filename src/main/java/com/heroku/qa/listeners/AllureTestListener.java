@@ -41,8 +41,7 @@ public class AllureTestListener implements ITestListener {
 	public void onStart(ITestContext iTestContext) {
 		System.out.println("Starting with execution of Test Suite: " + iTestContext.getCurrentXmlTest().getSuite().getName() + "\n");
 		iTestContext.setAttribute("WebDriver", BrowserManager.getDriver());
-		
-		
+	
 	}
 
 	public void onFinish(ITestContext iTestContext) {
