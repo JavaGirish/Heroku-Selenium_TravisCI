@@ -1,0 +1,1 @@
+IF EXIST "allure-report" (mkdir allure-results\history && copy "allure-report\history" "allure-results\history" && allure generate allure-results --clean -o allure-report && allure open allure-report) ELSE (allure generate allure-results --clean -o allure-report && allure open allure-report)
