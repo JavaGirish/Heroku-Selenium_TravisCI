@@ -11,19 +11,19 @@
       <class name="com.heroku.qa.datadriven.tests.AddComputer"/>
       
     </classes>
-  </test> <!-- Test -->
+  </test> 
   
   <test name="Heroku Application Data driven E2E Tests: Edit Computer" >
     <classes>
     <class name="com.heroku.qa.datadriven.tests.EditComputer"/>
     </classes>
-  </test> <!-- Test -->
+  </test> 
   
   
   <test name="Heroku Application Data driven E2E Tests: Delete Computer" >
     <classes>
       <class name="com.heroku.qa.datadriven.tests.DeleteComputer"/>
     </classes>
-  </test> <!-- Test -->
+  </test> 
   
 </suite> <!-- Suite -->

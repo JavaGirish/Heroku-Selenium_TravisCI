@@ -6,12 +6,12 @@
 <listener class-name = "com.heroku.qa.listeners.AllureTestListener" />
  </listeners>
 
-  <test name="Heroku Application End to End Tests: Add Computer" >
+  <!-- <test name="Heroku Application End to End Tests: Add Computer" >
     <classes>
       <class name="com.heroku.qa.tests.AddComputerTest"/>
       
     </classes>
-  </test> <!-- Test -->
+  </test> Test -->
   
   <test name="Heroku Application End to End Tests: Edit Computer" >
     <classes>
@@ -20,10 +20,10 @@
   </test> <!-- Test -->
   
   
-  <test name="Heroku Application End to End Tests: Delete Computer" >
+ <!--  <test name="Heroku Application End to End Tests: Delete Computer" >
     <classes>
       <class name="com.heroku.qa.tests.DeleteComputerTest"/>
     </classes>
-  </test> <!-- Test -->
+  </test> Test -->
   
 </suite> <!-- Suite -->
