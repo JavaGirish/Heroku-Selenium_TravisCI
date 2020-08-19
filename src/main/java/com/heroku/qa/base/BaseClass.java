@@ -5,6 +5,7 @@ import static com.github.automatedowl.tools.AllureEnvironmentWriter.allureEnviro
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.Map;
 
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
@@ -151,6 +152,9 @@ public class BaseClass {
 					// Write Browser version in Allure environment variable
 					.put("Browser Version",
 							((RemoteWebDriver) BrowserManager.getDriver()).getCapabilities().getVersion().toString())
+					
+					//Write Host Name in Allure environment variable
+					.put("Host Name", getHostName().toString())
 
 					// Write URL in Allure environment variable
 					.put("URL", Browser.prop.getProperty("url")).build(),
@@ -208,5 +212,22 @@ public class BaseClass {
 		}
 
 	}
+	
+	/** Method to return host name details on which tests are being run*/
+	public static String getHostName() {
+		Map<String, String> env = System.getenv();
+		
+	    if (env.containsKey("COMPUTERNAME"))
+	        return env.get("COMPUTERNAME");
+	    
+	    else if (env.containsKey("HOSTNAME"))
+	        return env.get("HOSTNAME");
+		
+		
+		return null;
+		
+	}
+	
+	
 
 }
