@@ -14,6 +14,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeSuite;
 
 import com.google.common.collect.ImmutableMap;
 import com.heroku.qa.browser.Browser;
@@ -121,6 +122,8 @@ public class BaseClass {
 
 	}
 
+
+
 	/*
 	 * Launching browser. initializing driver, page objects and navigating to page
 	 * url
@@ -132,7 +135,8 @@ public class BaseClass {
 		try {
 			Browser.initialize(); // Initialize browser
 			initializePages(); // Initialize all pages
-
+			
+			
 			/**
 			 * Custom java library added to generate Allure Environment variables (Refer
 			 * https://github.com/AutomatedOwl/allure-environment-writer for more info)
@@ -143,14 +147,14 @@ public class BaseClass {
 					.put("Browser",
 							((RemoteWebDriver) BrowserManager.getDriver()).getCapabilities().getBrowserName().toString()
 									.toUpperCase())
-					
+
 					// Write Browser version in Allure environment variable
 					.put("Browser Version",
 							((RemoteWebDriver) BrowserManager.getDriver()).getCapabilities().getVersion().toString())
-					
+
 					// Write URL in Allure environment variable
 					.put("URL", Browser.prop.getProperty("url")).build(),
-					
+
 					// allure-results path
 					System.getProperty("user.dir") + "/allure-results/");
 
@@ -160,6 +164,7 @@ public class BaseClass {
 			e.printStackTrace();
 		}
 	}
+	
 
 	/* Closing all browser sessions */
 	@AfterSuite
@@ -169,6 +174,9 @@ public class BaseClass {
 		BrowserManager.getDriver().close();
 		log.info("Browser has been closed!!");
 	}
+	
+	
+	
 
 	public static void LaunchTestReport() {
 		ProcessBuilder processBuilder = new ProcessBuilder("C:\\Users\\girishn3\\Desktop\\reports.bat");

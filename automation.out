@@ -1,386 +1,164 @@
-2020-08-15 21:08:361 INFO  Browser :82 - URL has been opened: http://computer-database.herokuapp.com/computers
-2020-08-15 21:08:259 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (1a89b25cdb50562f6134fc5b8f7e49d5)] -> id: add]
-2020-08-15 21:08:432 INFO  BaseClass :55 - Clicked on element: Proxy element for: DefaultElementLocator 'By.id: add'
-2020-08-15 21:08:799 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (1a89b25cdb50562f6134fc5b8f7e49d5)] -> id: name]
-2020-08-15 21:08:187 INFO  BaseClass :71 - Entered text: ASUS ROG 1 in element: [[ChromeDriver: chrome on WINDOWS (1a89b25cdb50562f6134fc5b8f7e49d5)] -> id: name]
-2020-08-15 21:08:439 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (1a89b25cdb50562f6134fc5b8f7e49d5)] -> id: introduced]
-2020-08-15 21:08:120 INFO  BaseClass :71 - Entered text: 2020-08-02 in element: [[ChromeDriver: chrome on WINDOWS (1a89b25cdb50562f6134fc5b8f7e49d5)] -> id: introduced]
-2020-08-15 21:08:388 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (1a89b25cdb50562f6134fc5b8f7e49d5)] -> id: discontinued]
-2020-08-15 21:08:414 INFO  BaseClass :71 - Entered text: 2020-12-31 in element: [[ChromeDriver: chrome on WINDOWS (1a89b25cdb50562f6134fc5b8f7e49d5)] -> id: discontinued]
-2020-08-15 21:08:671 INFO  BaseClass :95 - IBM has been selected from dropdown
-2020-08-15 21:08:899 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (1a89b25cdb50562f6134fc5b8f7e49d5)] -> css selector: input[type='submit']]
-2020-08-15 21:08:23 INFO  BaseClass :55 - Clicked on element: [[ChromeDriver: chrome on WINDOWS (1a89b25cdb50562f6134fc5b8f7e49d5)] -> css selector: input[type='submit']]
-2020-08-15 21:08:83 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (1a89b25cdb50562f6134fc5b8f7e49d5)] -> css selector: .alert-message]
-2020-08-15 21:08:142 INFO  BaseClass :132 - Browser has been closed!!
-2020-08-15 21:08:50 INFO  Browser :82 - URL has been opened: http://computer-database.herokuapp.com/computers
-2020-08-15 21:08:322 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (31b64e78ad1e8ecadd49e938cd56d41f)] -> id: searchbox]
-2020-08-15 21:08:594 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (31b64e78ad1e8ecadd49e938cd56d41f)] -> id: searchbox]
-2020-08-15 21:08:317 INFO  BaseClass :77 - Entered text: ASUS ROG 1 in element: [[ChromeDriver: chrome on WINDOWS (31b64e78ad1e8ecadd49e938cd56d41f)] -> id: searchbox]
-2020-08-15 21:08:377 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (31b64e78ad1e8ecadd49e938cd56d41f)] -> css selector: #searchsubmit]
-2020-08-15 21:08:494 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (31b64e78ad1e8ecadd49e938cd56d41f)] -> css selector: #searchsubmit]
-2020-08-15 21:08:395 INFO  BaseClass :61 - Clicked on element: [[ChromeDriver: chrome on WINDOWS (31b64e78ad1e8ecadd49e938cd56d41f)] -> css selector: #searchsubmit]
-2020-08-15 21:08:287 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (31b64e78ad1e8ecadd49e938cd56d41f)] -> css selector: .btn.danger]
-2020-08-15 21:08:391 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (31b64e78ad1e8ecadd49e938cd56d41f)] -> css selector: .btn.danger]
-2020-08-15 21:08:660 INFO  BaseClass :61 - Clicked on element: Proxy element for: DefaultElementLocator 'By.cssSelector: .btn.danger'
-2020-08-15 21:08:712 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (31b64e78ad1e8ecadd49e938cd56d41f)] -> css selector: .alert-message]
-2020-08-15 21:08:813 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (31b64e78ad1e8ecadd49e938cd56d41f)] -> css selector: .alert-message]
-2020-08-15 21:08:39 INFO  BaseClass :138 - Browser has been closed!!
-2020-08-15 21:08:913 INFO  Browser :82 - URL has been opened: http://computer-database.herokuapp.com/computers
-2020-08-15 21:08:739 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (7cef7569556a7ddc7bfb06af49b093ed)] -> id: searchbox]
-2020-08-15 21:08:993 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (7cef7569556a7ddc7bfb06af49b093ed)] -> id: searchbox]
-2020-08-15 21:08:553 INFO  BaseClass :77 - Entered text: ARRA in element: [[ChromeDriver: chrome on WINDOWS (7cef7569556a7ddc7bfb06af49b093ed)] -> id: searchbox]
-2020-08-15 21:08:592 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (7cef7569556a7ddc7bfb06af49b093ed)] -> css selector: #searchsubmit]
-2020-08-15 21:08:715 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (7cef7569556a7ddc7bfb06af49b093ed)] -> css selector: #searchsubmit]
-2020-08-15 21:08:393 INFO  BaseClass :61 - Clicked on element: [[ChromeDriver: chrome on WINDOWS (7cef7569556a7ddc7bfb06af49b093ed)] -> css selector: #searchsubmit]
-2020-08-15 21:08:599 INFO  AddComputerPage :128 - Found: ARRA in Computer Name search results
-2020-08-15 21:08:234 INFO  AddComputerPage :130 - Clicked on search result: ARRA
-2020-08-15 21:08:45 INFO  BaseClass :101 - RCA has been selected from available dropdown options
-2020-08-15 21:08:100 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (7cef7569556a7ddc7bfb06af49b093ed)] -> css selector: input[type='submit']]
-2020-08-15 21:08:180 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (7cef7569556a7ddc7bfb06af49b093ed)] -> css selector: input[type='submit']]
-2020-08-15 21:08:135 INFO  BaseClass :61 - Clicked on element: [[ChromeDriver: chrome on WINDOWS (7cef7569556a7ddc7bfb06af49b093ed)] -> css selector: input[type='submit']]
-2020-08-15 21:08:195 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (7cef7569556a7ddc7bfb06af49b093ed)] -> css selector: .alert-message]
-2020-08-15 21:08:295 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (7cef7569556a7ddc7bfb06af49b093ed)] -> css selector: .alert-message]
-2020-08-15 21:08:20 INFO  BaseClass :138 - Browser has been closed!!
-2020-08-15 21:08:527 INFO  Browser :82 - URL has been opened: http://computer-database.herokuapp.com/computers
-2020-08-15 21:08:854 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (39a2306d5271a938e54ee239d647cd5c)] -> id: searchbox]
-2020-08-15 21:08:83 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (39a2306d5271a938e54ee239d647cd5c)] -> id: searchbox]
-2020-08-15 21:08:91 INFO  BaseClass :77 - Entered text: ARRAROOOORR in element: [[ChromeDriver: chrome on WINDOWS (39a2306d5271a938e54ee239d647cd5c)] -> id: searchbox]
-2020-08-15 21:08:146 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (39a2306d5271a938e54ee239d647cd5c)] -> css selector: #searchsubmit]
-2020-08-15 21:08:355 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (39a2306d5271a938e54ee239d647cd5c)] -> css selector: #searchsubmit]
-2020-08-15 21:08:381 INFO  BaseClass :61 - Clicked on element: [[ChromeDriver: chrome on WINDOWS (39a2306d5271a938e54ee239d647cd5c)] -> css selector: #searchsubmit]
-2020-08-15 21:08:807 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (39a2306d5271a938e54ee239d647cd5c)] -> css selector: input[type='submit']]
-2020-08-15 21:08:913 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (39a2306d5271a938e54ee239d647cd5c)] -> css selector: input[type='submit']]
-2020-08-15 21:08:649 INFO  BaseClass :61 - Clicked on element: [[ChromeDriver: chrome on WINDOWS (39a2306d5271a938e54ee239d647cd5c)] -> css selector: input[type='submit']]
-2020-08-15 21:08:782 INFO  WaitHelper :26 - Waiting for element to be visible on page: Proxy element for: DefaultElementLocator 'By.cssSelector: .alert-message'
-2020-08-15 21:08:916 INFO  Browser :82 - URL has been opened: http://computer-database.herokuapp.com/computers
-2020-08-15 21:08:726 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (243c5437336b47a5de9e4dddce235ba9)] -> id: searchbox]
-2020-08-15 21:08:927 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (243c5437336b47a5de9e4dddce235ba9)] -> id: searchbox]
-2020-08-15 21:08:604 INFO  BaseClass :77 - Entered text: ARRAROOOORR in element: [[ChromeDriver: chrome on WINDOWS (243c5437336b47a5de9e4dddce235ba9)] -> id: searchbox]
-2020-08-15 21:08:703 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (243c5437336b47a5de9e4dddce235ba9)] -> css selector: #searchsubmit]
-2020-08-15 21:08:880 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (243c5437336b47a5de9e4dddce235ba9)] -> css selector: #searchsubmit]
-2020-08-15 21:08:454 INFO  BaseClass :61 - Clicked on element: [[ChromeDriver: chrome on WINDOWS (243c5437336b47a5de9e4dddce235ba9)] -> css selector: #searchsubmit]
-2020-08-15 21:08:720 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (243c5437336b47a5de9e4dddce235ba9)] -> css selector: input[type='submit']]
-2020-08-15 21:08:806 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (243c5437336b47a5de9e4dddce235ba9)] -> css selector: input[type='submit']]
-2020-08-15 21:08:601 INFO  BaseClass :61 - Clicked on element: [[ChromeDriver: chrome on WINDOWS (243c5437336b47a5de9e4dddce235ba9)] -> css selector: input[type='submit']]
-2020-08-15 21:08:663 INFO  WaitHelper :26 - Waiting for element to be visible on page: Proxy element for: DefaultElementLocator 'By.cssSelector: .alert-message'
-2020-08-15 21:08:685 INFO  Browser :82 - URL has been opened: http://computer-database.herokuapp.com/computers
-2020-08-15 21:08:221 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (5092ea76d420b4b8a7388503b9273fdd)] -> id: searchbox]
-2020-08-15 21:08:453 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (5092ea76d420b4b8a7388503b9273fdd)] -> id: searchbox]
-2020-08-15 21:08:628 INFO  BaseClass :77 - Entered text: ARRAROOOORR in element: [[ChromeDriver: chrome on WINDOWS (5092ea76d420b4b8a7388503b9273fdd)] -> id: searchbox]
-2020-08-15 21:08:704 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (5092ea76d420b4b8a7388503b9273fdd)] -> css selector: #searchsubmit]
-2020-08-15 21:08:859 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (5092ea76d420b4b8a7388503b9273fdd)] -> css selector: #searchsubmit]
-2020-08-15 21:08:473 INFO  BaseClass :61 - Clicked on element: [[ChromeDriver: chrome on WINDOWS (5092ea76d420b4b8a7388503b9273fdd)] -> css selector: #searchsubmit]
-2020-08-15 21:08:591 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (5092ea76d420b4b8a7388503b9273fdd)] -> css selector: input[type='submit']]
-2020-08-15 21:08:682 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (5092ea76d420b4b8a7388503b9273fdd)] -> css selector: input[type='submit']]
-2020-08-15 21:08:506 INFO  BaseClass :61 - Clicked on element: [[ChromeDriver: chrome on WINDOWS (5092ea76d420b4b8a7388503b9273fdd)] -> css selector: input[type='submit']]
-2020-08-15 21:08:578 INFO  WaitHelper :26 - Waiting for element to be visible on page: Proxy element for: DefaultElementLocator 'By.cssSelector: .alert-message'
-2020-08-15 21:08:146 INFO  Browser :82 - URL has been opened: http://computer-database.herokuapp.com/computers
-2020-08-15 21:08:866 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (791bf36a54f16665570fcf3bcab22538)] -> id: searchbox]
-2020-08-15 21:08:57 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (791bf36a54f16665570fcf3bcab22538)] -> id: searchbox]
-2020-08-15 21:08:439 INFO  BaseClass :77 - Entered text: ARRA in element: [[ChromeDriver: chrome on WINDOWS (791bf36a54f16665570fcf3bcab22538)] -> id: searchbox]
-2020-08-15 21:08:495 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (791bf36a54f16665570fcf3bcab22538)] -> css selector: #searchsubmit]
-2020-08-15 21:08:639 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (791bf36a54f16665570fcf3bcab22538)] -> css selector: #searchsubmit]
-2020-08-15 21:08:491 INFO  BaseClass :61 - Clicked on element: [[ChromeDriver: chrome on WINDOWS (791bf36a54f16665570fcf3bcab22538)] -> css selector: #searchsubmit]
-2020-08-15 21:08:595 INFO  AddComputerPage :130 - Found: ARRA in Computer Name search results
-2020-08-15 21:08:131 INFO  AddComputerPage :132 - Clicked on search result: ARRA
-2020-08-15 21:08:713 INFO  BaseClass :113 - RCA has been selected from available dropdown options
-2020-08-15 21:08:776 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (791bf36a54f16665570fcf3bcab22538)] -> css selector: input[type='submit']]
-2020-08-15 21:08:892 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (791bf36a54f16665570fcf3bcab22538)] -> css selector: input[type='submit']]
-2020-08-15 21:08:874 INFO  BaseClass :61 - Clicked on element: [[ChromeDriver: chrome on WINDOWS (791bf36a54f16665570fcf3bcab22538)] -> css selector: input[type='submit']]
-2020-08-15 21:08:12 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (791bf36a54f16665570fcf3bcab22538)] -> css selector: .alert-message]
-2020-08-15 21:08:135 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (791bf36a54f16665570fcf3bcab22538)] -> css selector: .alert-message]
-2020-08-15 21:08:160 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (791bf36a54f16665570fcf3bcab22538)] -> css selector: .alert-message]
-2020-08-15 21:08:289 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (791bf36a54f16665570fcf3bcab22538)] -> css selector: .alert-message]
-2020-08-15 21:08:290 INFO  BaseClass :95 - Success message is displayed
-2020-08-15 21:08:332 INFO  BaseClass :150 - Browser has been closed!!
-2020-08-15 21:08:852 INFO  Browser :82 - URL has been opened: http://computer-database.herokuapp.com/computers
-2020-08-15 21:08:443 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (346f7b169687e28e9d65100eb4fc9ab6)] -> id: searchbox]
-2020-08-15 21:08:648 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (346f7b169687e28e9d65100eb4fc9ab6)] -> id: searchbox]
-2020-08-15 21:08:125 INFO  BaseClass :77 - Entered text: ARRA in element: [[ChromeDriver: chrome on WINDOWS (346f7b169687e28e9d65100eb4fc9ab6)] -> id: searchbox]
-2020-08-15 21:08:192 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (346f7b169687e28e9d65100eb4fc9ab6)] -> css selector: #searchsubmit]
-2020-08-15 21:08:336 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (346f7b169687e28e9d65100eb4fc9ab6)] -> css selector: #searchsubmit]
-2020-08-15 21:08:01 INFO  BaseClass :61 - Clicked on element: [[ChromeDriver: chrome on WINDOWS (346f7b169687e28e9d65100eb4fc9ab6)] -> css selector: #searchsubmit]
-2020-08-15 21:08:214 INFO  AddComputerPage :130 - Found: ARRA in Computer Name search results
-2020-08-15 21:08:885 INFO  AddComputerPage :132 - Clicked on Computer Name: ARRA
-2020-08-15 21:08:25 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (346f7b169687e28e9d65100eb4fc9ab6)] -> css selector: .btn.danger]
-2020-08-15 21:08:180 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (346f7b169687e28e9d65100eb4fc9ab6)] -> css selector: .btn.danger]
-2020-08-15 21:08:150 INFO  BaseClass :61 - Clicked on element: Proxy element for: DefaultElementLocator 'By.cssSelector: .btn.danger'
-2020-08-15 21:08:236 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (346f7b169687e28e9d65100eb4fc9ab6)] -> css selector: .alert-message]
-2020-08-15 21:08:336 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (346f7b169687e28e9d65100eb4fc9ab6)] -> css selector: .alert-message]
-2020-08-15 21:08:361 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (346f7b169687e28e9d65100eb4fc9ab6)] -> css selector: .alert-message]
-2020-08-15 21:08:438 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (346f7b169687e28e9d65100eb4fc9ab6)] -> css selector: .alert-message]
-2020-08-15 21:08:444 INFO  BaseClass :95 - Success message is displayed
-2020-08-15 21:08:159 INFO  BaseClass :150 - Browser has been closed!!
-2020-08-15 22:08:473 INFO  Browser :82 - URL has been opened: http://computer-database.herokuapp.com/computers
-2020-08-15 22:08:368 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> id: add]
-2020-08-15 22:08:888 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> id: add]
-2020-08-15 22:08:780 INFO  BaseClass :61 - Clicked on element: Proxy element for: DefaultElementLocator 'By.id: add'
-2020-08-15 22:08:913 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> id: name]
-2020-08-15 22:08:18 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> id: name]
-2020-08-15 22:08:865 INFO  BaseClass :77 - Entered text: ASUS ROG 1 in element: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> id: name]
-2020-08-15 22:08:906 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> id: introduced]
-2020-08-15 22:08:04 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> id: introduced]
-2020-08-15 22:08:473 INFO  BaseClass :77 - Entered text: 2020-08-10 in element: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> id: introduced]
-2020-08-15 22:08:520 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> id: discontinued]
-2020-08-15 22:08:829 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> id: discontinued]
-2020-08-15 22:08:330 INFO  BaseClass :77 - Entered text: 2020-12-31 in element: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> id: discontinued]
-2020-08-15 22:08:293 INFO  BaseClass :113 - IBM has been selected from available dropdown options
-2020-08-15 22:08:349 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> css selector: input[type='submit']]
-2020-08-15 22:08:464 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> css selector: input[type='submit']]
-2020-08-15 22:08:702 INFO  BaseClass :61 - Clicked on element: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> css selector: input[type='submit']]
-2020-08-15 22:08:738 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> css selector: .alert-message]
-2020-08-15 22:08:835 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> css selector: .alert-message]
-2020-08-15 22:08:856 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> css selector: .alert-message]
-2020-08-15 22:08:925 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> css selector: .alert-message]
-2020-08-15 22:08:926 INFO  BaseClass :95 - Success message is displayed
-2020-08-15 22:08:105 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> id: add]
-2020-08-15 22:08:176 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> id: add]
-2020-08-15 22:08:120 INFO  BaseClass :61 - Clicked on element: Proxy element for: DefaultElementLocator 'By.id: add'
-2020-08-15 22:08:154 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> id: name]
-2020-08-15 22:08:251 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> id: name]
-2020-08-15 22:08:778 INFO  BaseClass :77 - Entered text: ASUS ROG 2 in element: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> id: name]
-2020-08-15 22:08:829 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> id: introduced]
-2020-08-15 22:08:943 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> id: introduced]
-2020-08-15 22:08:266 INFO  BaseClass :77 - Entered text: 2020-08-15 in element: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> id: introduced]
-2020-08-15 22:08:303 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> id: discontinued]
-2020-08-15 22:08:424 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> id: discontinued]
-2020-08-15 22:08:735 INFO  BaseClass :77 - Entered text: 2021-08-15 in element: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> id: discontinued]
-2020-08-15 22:08:88 INFO  BaseClass :113 - RCA has been selected from available dropdown options
-2020-08-15 22:08:133 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> css selector: input[type='submit']]
-2020-08-15 22:08:278 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> css selector: input[type='submit']]
-2020-08-15 22:08:107 INFO  BaseClass :61 - Clicked on element: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> css selector: input[type='submit']]
-2020-08-15 22:08:138 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> css selector: .alert-message]
-2020-08-15 22:08:348 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> css selector: .alert-message]
-2020-08-15 22:08:378 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> css selector: .alert-message]
-2020-08-15 22:08:491 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> css selector: .alert-message]
-2020-08-15 22:08:492 INFO  BaseClass :95 - Success message is displayed
-2020-08-15 22:08:176 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> id: add]
-2020-08-15 22:08:255 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> id: add]
-2020-08-15 22:08:906 INFO  BaseClass :61 - Clicked on element: Proxy element for: DefaultElementLocator 'By.id: add'
-2020-08-15 22:08:929 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> id: name]
-2020-08-15 22:08:01 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> id: name]
-2020-08-15 22:08:438 INFO  BaseClass :77 - Entered text: ASUS ROG 3 in element: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> id: name]
-2020-08-15 22:08:473 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> id: introduced]
-2020-08-15 22:08:613 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> id: introduced]
-2020-08-15 22:08:257 INFO  BaseClass :77 - Entered text: 2020-06-10 in element: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> id: introduced]
-2020-08-15 22:08:297 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> id: discontinued]
-2020-08-15 22:08:404 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> id: discontinued]
-2020-08-15 22:08:23 INFO  BaseClass :77 - Entered text: 2021-06-10 in element: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> id: discontinued]
-2020-08-15 22:08:315 INFO  BaseClass :113 - Sony has been selected from available dropdown options
-2020-08-15 22:08:360 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> css selector: input[type='submit']]
-2020-08-15 22:08:468 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> css selector: input[type='submit']]
-2020-08-15 22:08:576 INFO  BaseClass :61 - Clicked on element: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> css selector: input[type='submit']]
-2020-08-15 22:08:610 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> css selector: .alert-message]
-2020-08-15 22:08:679 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> css selector: .alert-message]
-2020-08-15 22:08:697 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> css selector: .alert-message]
-2020-08-15 22:08:762 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> css selector: .alert-message]
-2020-08-15 22:08:763 INFO  BaseClass :95 - Success message is displayed
-2020-08-15 22:08:730 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> id: searchbox]
-2020-08-15 22:08:807 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> id: searchbox]
-2020-08-15 22:08:437 INFO  BaseClass :77 - Entered text: ASUS ROG 1 in element: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> id: searchbox]
-2020-08-15 22:08:477 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> css selector: #searchsubmit]
-2020-08-15 22:08:569 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> css selector: #searchsubmit]
-2020-08-15 22:08:427 INFO  BaseClass :61 - Clicked on element: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> css selector: #searchsubmit]
-2020-08-15 22:08:504 INFO  AddComputerPage :130 - Found: ASUS ROG 1 in Computer Name search results
-2020-08-15 22:08:106 INFO  AddComputerPage :132 - Clicked on Computer Name: ASUS ROG 1
-2020-08-15 22:08:428 INFO  BaseClass :113 - RCA has been selected from available dropdown options
-2020-08-15 22:08:454 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> css selector: input[type='submit']]
-2020-08-15 22:08:534 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> css selector: input[type='submit']]
-2020-08-15 22:08:296 INFO  BaseClass :61 - Clicked on element: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> css selector: input[type='submit']]
-2020-08-15 22:08:319 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> css selector: .alert-message]
-2020-08-15 22:08:476 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> css selector: .alert-message]
-2020-08-15 22:08:498 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> css selector: .alert-message]
-2020-08-15 22:08:577 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> css selector: .alert-message]
-2020-08-15 22:08:578 INFO  BaseClass :95 - Success message is displayed
-2020-08-15 22:08:189 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> id: searchbox]
-2020-08-15 22:08:268 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> id: searchbox]
-2020-08-15 22:08:696 INFO  BaseClass :77 - Entered text: ASUS ROG 2 in element: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> id: searchbox]
-2020-08-15 22:08:723 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> css selector: #searchsubmit]
-2020-08-15 22:08:801 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> css selector: #searchsubmit]
-2020-08-15 22:08:377 INFO  BaseClass :61 - Clicked on element: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> css selector: #searchsubmit]
-2020-08-15 22:08:531 INFO  AddComputerPage :130 - Found: ASUS ROG 2 in Computer Name search results
-2020-08-15 22:08:78 INFO  AddComputerPage :132 - Clicked on Computer Name: ASUS ROG 2
-2020-08-15 22:08:376 INFO  BaseClass :113 - Sony has been selected from available dropdown options
-2020-08-15 22:08:398 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> css selector: input[type='submit']]
-2020-08-15 22:08:477 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> css selector: input[type='submit']]
-2020-08-15 22:08:398 INFO  BaseClass :61 - Clicked on element: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> css selector: input[type='submit']]
-2020-08-15 22:08:423 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> css selector: .alert-message]
-2020-08-15 22:08:508 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> css selector: .alert-message]
-2020-08-15 22:08:534 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> css selector: .alert-message]
-2020-08-15 22:08:617 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> css selector: .alert-message]
-2020-08-15 22:08:618 INFO  BaseClass :95 - Success message is displayed
-2020-08-15 22:08:154 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> id: searchbox]
-2020-08-15 22:08:222 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> id: searchbox]
-2020-08-15 22:08:544 INFO  BaseClass :77 - Entered text: ASUS ROG 3 in element: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> id: searchbox]
-2020-08-15 22:08:574 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> css selector: #searchsubmit]
-2020-08-15 22:08:673 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> css selector: #searchsubmit]
-2020-08-15 22:08:530 INFO  BaseClass :61 - Clicked on element: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> css selector: #searchsubmit]
-2020-08-15 22:08:594 INFO  AddComputerPage :130 - Found: ASUS ROG 3 in Computer Name search results
-2020-08-15 22:08:132 INFO  AddComputerPage :132 - Clicked on Computer Name: ASUS ROG 3
-2020-08-15 22:08:401 INFO  BaseClass :113 - IBM has been selected from available dropdown options
-2020-08-15 22:08:427 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> css selector: input[type='submit']]
-2020-08-15 22:08:524 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> css selector: input[type='submit']]
-2020-08-15 22:08:310 INFO  BaseClass :61 - Clicked on element: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> css selector: input[type='submit']]
-2020-08-15 22:08:339 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> css selector: .alert-message]
-2020-08-15 22:08:423 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> css selector: .alert-message]
-2020-08-15 22:08:445 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> css selector: .alert-message]
-2020-08-15 22:08:513 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> css selector: .alert-message]
-2020-08-15 22:08:514 INFO  BaseClass :95 - Success message is displayed
-2020-08-15 22:08:222 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> id: searchbox]
-2020-08-15 22:08:299 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> id: searchbox]
-2020-08-15 22:08:614 INFO  BaseClass :77 - Entered text: ASUS ROG 1 in element: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> id: searchbox]
-2020-08-15 22:08:643 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> css selector: #searchsubmit]
-2020-08-15 22:08:748 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> css selector: #searchsubmit]
-2020-08-15 22:08:277 INFO  BaseClass :61 - Clicked on element: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> css selector: #searchsubmit]
-2020-08-15 22:08:340 INFO  AddComputerPage :130 - Found: ASUS ROG 1 in Computer Name search results
-2020-08-15 22:08:887 INFO  AddComputerPage :132 - Clicked on Computer Name: ASUS ROG 1
-2020-08-15 22:08:932 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> css selector: .btn.danger]
-2020-08-15 22:08:18 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> css selector: .btn.danger]
-2020-08-15 22:08:970 INFO  BaseClass :61 - Clicked on element: Proxy element for: DefaultElementLocator 'By.cssSelector: .btn.danger'
-2020-08-15 22:08:991 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> css selector: .alert-message]
-2020-08-15 22:08:74 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> css selector: .alert-message]
-2020-08-15 22:08:116 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> css selector: .alert-message]
-2020-08-15 22:08:191 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> css selector: .alert-message]
-2020-08-15 22:08:191 INFO  BaseClass :95 - Success message is displayed
-2020-08-15 22:08:809 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> id: searchbox]
-2020-08-15 22:08:906 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> id: searchbox]
-2020-08-15 22:08:226 INFO  BaseClass :77 - Entered text: ASUS ROG 2 in element: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> id: searchbox]
-2020-08-15 22:08:256 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> css selector: #searchsubmit]
-2020-08-15 22:08:407 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> css selector: #searchsubmit]
-2020-08-15 22:08:561 INFO  BaseClass :61 - Clicked on element: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> css selector: #searchsubmit]
-2020-08-15 22:08:680 INFO  AddComputerPage :130 - Found: ASUS ROG 2 in Computer Name search results
-2020-08-15 22:08:262 INFO  AddComputerPage :132 - Clicked on Computer Name: ASUS ROG 2
-2020-08-15 22:08:313 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> css selector: .btn.danger]
-2020-08-15 22:08:411 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> css selector: .btn.danger]
-2020-08-15 22:08:256 INFO  BaseClass :61 - Clicked on element: Proxy element for: DefaultElementLocator 'By.cssSelector: .btn.danger'
-2020-08-15 22:08:328 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> css selector: .alert-message]
-2020-08-15 22:08:521 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> css selector: .alert-message]
-2020-08-15 22:08:544 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> css selector: .alert-message]
-2020-08-15 22:08:618 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> css selector: .alert-message]
-2020-08-15 22:08:619 INFO  BaseClass :95 - Success message is displayed
-2020-08-15 22:08:165 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> id: searchbox]
-2020-08-15 22:08:232 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> id: searchbox]
-2020-08-15 22:08:578 INFO  BaseClass :77 - Entered text: ASUS ROG 3 in element: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> id: searchbox]
-2020-08-15 22:08:784 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> css selector: #searchsubmit]
-2020-08-15 22:08:904 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> css selector: #searchsubmit]
-2020-08-15 22:08:884 INFO  BaseClass :61 - Clicked on element: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> css selector: #searchsubmit]
-2020-08-15 22:08:987 INFO  AddComputerPage :130 - Found: ASUS ROG 3 in Computer Name search results
-2020-08-15 22:08:504 INFO  AddComputerPage :132 - Clicked on Computer Name: ASUS ROG 3
-2020-08-15 22:08:541 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> css selector: .btn.danger]
-2020-08-15 22:08:637 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> css selector: .btn.danger]
-2020-08-15 22:08:514 INFO  BaseClass :61 - Clicked on element: Proxy element for: DefaultElementLocator 'By.cssSelector: .btn.danger'
-2020-08-15 22:08:538 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> css selector: .alert-message]
-2020-08-15 22:08:610 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> css selector: .alert-message]
-2020-08-15 22:08:628 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> css selector: .alert-message]
-2020-08-15 22:08:698 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (b25b3b563bbf690df396636b4d328424)] -> css selector: .alert-message]
-2020-08-15 22:08:699 INFO  BaseClass :95 - Success message is displayed
-2020-08-15 22:08:278 INFO  BaseClass :150 - Browser has been closed!!
-2020-08-16 13:08:594 INFO  Browser :82 - URL has been opened: http://computer-database.herokuapp.com/computers
-2020-08-16 13:08:418 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (b84538c73706e36b788070c068078429)] -> id: searchbox]
-2020-08-16 13:08:642 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (b84538c73706e36b788070c068078429)] -> id: searchbox]
-2020-08-16 13:08:692 INFO  BaseClass :81 - Entered text: ARRA in element: [[ChromeDriver: chrome on WINDOWS (b84538c73706e36b788070c068078429)] -> id: searchbox]
-2020-08-16 13:08:731 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (b84538c73706e36b788070c068078429)] -> css selector: #searchsubmit]
-2020-08-16 13:08:886 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (b84538c73706e36b788070c068078429)] -> css selector: #searchsubmit]
-2020-08-16 13:08:585 INFO  BaseClass :65 - Clicked on element: [[ChromeDriver: chrome on WINDOWS (b84538c73706e36b788070c068078429)] -> css selector: #searchsubmit]
-2020-08-16 13:08:387 INFO  AddComputerPage :130 - Found: ARRA in Computer Name search results
-2020-08-16 13:08:988 INFO  AddComputerPage :132 - Clicked on Computer Name: ARRA
-2020-08-16 13:08:34 INFO  BaseClass :117 - RCA has been selected from available dropdown options
-2020-08-16 13:08:491 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (b84538c73706e36b788070c068078429)] -> css selector: input[type='submit']]
-2020-08-16 13:08:595 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (b84538c73706e36b788070c068078429)] -> css selector: input[type='submit']]
-2020-08-16 13:08:25 INFO  BaseClass :65 - Clicked on element: [[ChromeDriver: chrome on WINDOWS (b84538c73706e36b788070c068078429)] -> css selector: input[type='submit']]
-2020-08-16 13:08:497 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (b84538c73706e36b788070c068078429)] -> css selector: .alert-message]
-2020-08-16 13:08:572 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (b84538c73706e36b788070c068078429)] -> css selector: .alert-message]
-2020-08-16 13:08:605 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (b84538c73706e36b788070c068078429)] -> css selector: .alert-message]
-2020-08-16 13:08:725 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (b84538c73706e36b788070c068078429)] -> css selector: .alert-message]
-2020-08-16 13:08:726 INFO  BaseClass :99 - Success message is displayed
-2020-08-16 13:08:79 INFO  BaseClass :162 - Browser has been closed!!
-2020-08-16 14:08:258 INFO  Browser :82 - URL has been opened: http://computer-database.herokuapp.com/computers
-2020-08-16 14:08:427 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (2ee5a046e2290d373193f3fb8c2ec063)] -> id: searchbox]
-2020-08-16 14:08:31 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (2ee5a046e2290d373193f3fb8c2ec063)] -> id: searchbox]
-2020-08-16 14:08:780 INFO  BaseClass :80 - Entered text: ARRA in element: [[ChromeDriver: chrome on WINDOWS (2ee5a046e2290d373193f3fb8c2ec063)] -> id: searchbox]
-2020-08-16 14:08:812 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (2ee5a046e2290d373193f3fb8c2ec063)] -> css selector: #searchsubmit]
-2020-08-16 14:08:11 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (2ee5a046e2290d373193f3fb8c2ec063)] -> css selector: #searchsubmit]
-2020-08-16 14:08:592 INFO  BaseClass :64 - Clicked on element: [[ChromeDriver: chrome on WINDOWS (2ee5a046e2290d373193f3fb8c2ec063)] -> css selector: #searchsubmit]
-2020-08-16 14:08:953 INFO  AddComputerPage :130 - Found: ARRA in Computer Name search results
-2020-08-16 14:08:949 INFO  AddComputerPage :132 - Clicked on Computer Name: ARRA
-2020-08-16 14:08:969 INFO  BaseClass :114 - RCA has been selected from available dropdown options
-2020-08-16 14:08:465 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (2ee5a046e2290d373193f3fb8c2ec063)] -> css selector: input[type='submit']]
-2020-08-16 14:08:577 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (2ee5a046e2290d373193f3fb8c2ec063)] -> css selector: input[type='submit']]
-2020-08-16 14:08:783 INFO  BaseClass :64 - Clicked on element: [[ChromeDriver: chrome on WINDOWS (2ee5a046e2290d373193f3fb8c2ec063)] -> css selector: input[type='submit']]
-2020-08-16 14:08:384 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (2ee5a046e2290d373193f3fb8c2ec063)] -> css selector: .alert-message]
-2020-08-16 14:08:460 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (2ee5a046e2290d373193f3fb8c2ec063)] -> css selector: .alert-message]
-2020-08-16 14:08:481 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (2ee5a046e2290d373193f3fb8c2ec063)] -> css selector: .alert-message]
-2020-08-16 14:08:558 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (2ee5a046e2290d373193f3fb8c2ec063)] -> css selector: .alert-message]
-2020-08-16 14:08:559 INFO  BaseClass :97 - Success message is displayed
-2020-08-16 14:08:440 INFO  BaseClass :170 - Browser has been closed!!
-2020-08-16 14:08:855 INFO  Browser :82 - URL has been opened: http://computer-database.herokuapp.com/computers
-2020-08-16 14:08:860 INFO  BaseClass :170 - Browser has been closed!!
-2020-08-16 14:08:352 INFO  Browser :82 - URL has been opened: http://computer-database.herokuapp.com/computers
-2020-08-16 14:08:91 INFO  BaseClass :170 - Browser has been closed!!
-2020-08-16 14:08:979 INFO  Browser :82 - URL has been opened: http://computer-database.herokuapp.com/computers
-2020-08-16 14:08:234 INFO  BaseClass :170 - Browser has been closed!!
-2020-08-16 14:08:664 INFO  Browser :82 - URL has been opened: http://computer-database.herokuapp.com/computers
-2020-08-16 14:08:464 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (e869812869f1ef937a760fcb479ecad9)] -> id: add]
-2020-08-16 14:08:897 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (e869812869f1ef937a760fcb479ecad9)] -> id: add]
-2020-08-16 14:08:78 INFO  BaseClass :64 - Clicked on element: Proxy element for: DefaultElementLocator 'By.id: add'
-2020-08-16 14:08:225 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (e869812869f1ef937a760fcb479ecad9)] -> id: name]
-2020-08-16 14:08:328 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (e869812869f1ef937a760fcb479ecad9)] -> id: name]
-2020-08-16 14:08:749 INFO  BaseClass :80 - Entered text: ASUS ROG 1 in element: [[ChromeDriver: chrome on WINDOWS (e869812869f1ef937a760fcb479ecad9)] -> id: name]
-2020-08-16 14:08:875 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (e869812869f1ef937a760fcb479ecad9)] -> id: introduced]
-2020-08-16 14:08:57 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (e869812869f1ef937a760fcb479ecad9)] -> id: introduced]
-2020-08-16 14:08:448 INFO  BaseClass :80 - Entered text: 2020-08-10 in element: [[ChromeDriver: chrome on WINDOWS (e869812869f1ef937a760fcb479ecad9)] -> id: introduced]
-2020-08-16 14:08:480 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (e869812869f1ef937a760fcb479ecad9)] -> id: discontinued]
-2020-08-16 14:08:879 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (e869812869f1ef937a760fcb479ecad9)] -> id: discontinued]
-2020-08-16 14:08:495 INFO  BaseClass :80 - Entered text: 2020-12-31 in element: [[ChromeDriver: chrome on WINDOWS (e869812869f1ef937a760fcb479ecad9)] -> id: discontinued]
-2020-08-16 14:08:142 INFO  BaseClass :114 - IBM has been selected from available dropdown options
-2020-08-16 14:08:194 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (e869812869f1ef937a760fcb479ecad9)] -> css selector: input[type='submit']]
-2020-08-16 14:08:443 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (e869812869f1ef937a760fcb479ecad9)] -> css selector: input[type='submit']]
-2020-08-16 14:08:693 INFO  BaseClass :64 - Clicked on element: [[ChromeDriver: chrome on WINDOWS (e869812869f1ef937a760fcb479ecad9)] -> css selector: input[type='submit']]
-2020-08-16 14:08:797 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (e869812869f1ef937a760fcb479ecad9)] -> css selector: .alert-message]
-2020-08-16 14:08:927 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (e869812869f1ef937a760fcb479ecad9)] -> css selector: .alert-message]
-2020-08-16 14:08:948 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (e869812869f1ef937a760fcb479ecad9)] -> css selector: .alert-message]
-2020-08-16 14:08:29 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (e869812869f1ef937a760fcb479ecad9)] -> css selector: .alert-message]
-2020-08-16 14:08:30 INFO  BaseClass :97 - Success message is displayed
-2020-08-16 14:08:04 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (e869812869f1ef937a760fcb479ecad9)] -> id: add]
-2020-08-16 14:08:97 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (e869812869f1ef937a760fcb479ecad9)] -> id: add]
-2020-08-16 14:08:214 INFO  BaseClass :64 - Clicked on element: Proxy element for: DefaultElementLocator 'By.id: add'
-2020-08-16 14:08:242 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (e869812869f1ef937a760fcb479ecad9)] -> id: name]
-2020-08-16 14:08:353 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (e869812869f1ef937a760fcb479ecad9)] -> id: name]
-2020-08-16 14:08:896 INFO  BaseClass :80 - Entered text: ASUS ROG 2 in element: [[ChromeDriver: chrome on WINDOWS (e869812869f1ef937a760fcb479ecad9)] -> id: name]
-2020-08-16 14:08:923 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (e869812869f1ef937a760fcb479ecad9)] -> id: introduced]
-2020-08-16 14:08:34 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (e869812869f1ef937a760fcb479ecad9)] -> id: introduced]
-2020-08-16 14:08:399 INFO  BaseClass :80 - Entered text: 2020-08-15 in element: [[ChromeDriver: chrome on WINDOWS (e869812869f1ef937a760fcb479ecad9)] -> id: introduced]
-2020-08-16 14:08:430 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (e869812869f1ef937a760fcb479ecad9)] -> id: discontinued]
-2020-08-16 14:08:569 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (e869812869f1ef937a760fcb479ecad9)] -> id: discontinued]
-2020-08-16 14:08:939 INFO  BaseClass :80 - Entered text: 2021-08-15 in element: [[ChromeDriver: chrome on WINDOWS (e869812869f1ef937a760fcb479ecad9)] -> id: discontinued]
-2020-08-16 14:08:195 INFO  BaseClass :114 - RCA has been selected from available dropdown options
-2020-08-16 14:08:224 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (e869812869f1ef937a760fcb479ecad9)] -> css selector: input[type='submit']]
-2020-08-16 14:08:352 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (e869812869f1ef937a760fcb479ecad9)] -> css selector: input[type='submit']]
-2020-08-16 14:08:474 INFO  BaseClass :64 - Clicked on element: [[ChromeDriver: chrome on WINDOWS (e869812869f1ef937a760fcb479ecad9)] -> css selector: input[type='submit']]
-2020-08-16 14:08:492 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (e869812869f1ef937a760fcb479ecad9)] -> css selector: .alert-message]
-2020-08-16 14:08:604 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (e869812869f1ef937a760fcb479ecad9)] -> css selector: .alert-message]
-2020-08-16 14:08:628 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (e869812869f1ef937a760fcb479ecad9)] -> css selector: .alert-message]
-2020-08-16 14:08:712 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (e869812869f1ef937a760fcb479ecad9)] -> css selector: .alert-message]
-2020-08-16 14:08:713 INFO  BaseClass :97 - Success message is displayed
-2020-08-16 14:08:494 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (e869812869f1ef937a760fcb479ecad9)] -> id: add]
-2020-08-16 14:08:617 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (e869812869f1ef937a760fcb479ecad9)] -> id: add]
-2020-08-16 14:08:697 INFO  BaseClass :64 - Clicked on element: Proxy element for: DefaultElementLocator 'By.id: add'
-2020-08-16 14:08:722 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (e869812869f1ef937a760fcb479ecad9)] -> id: name]
-2020-08-16 14:08:810 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (e869812869f1ef937a760fcb479ecad9)] -> id: name]
-2020-08-16 14:08:560 INFO  BaseClass :80 - Entered text: ASUS ROG 3 in element: [[ChromeDriver: chrome on WINDOWS (e869812869f1ef937a760fcb479ecad9)] -> id: name]
-2020-08-16 14:08:593 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (e869812869f1ef937a760fcb479ecad9)] -> id: introduced]
-2020-08-16 14:08:704 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (e869812869f1ef937a760fcb479ecad9)] -> id: introduced]
-2020-08-16 14:08:129 INFO  BaseClass :80 - Entered text: 2020-06-10 in element: [[ChromeDriver: chrome on WINDOWS (e869812869f1ef937a760fcb479ecad9)] -> id: introduced]
-2020-08-16 14:08:205 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (e869812869f1ef937a760fcb479ecad9)] -> id: discontinued]
-2020-08-16 14:08:376 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (e869812869f1ef937a760fcb479ecad9)] -> id: discontinued]
-2020-08-16 14:08:872 INFO  BaseClass :80 - Entered text: 2021-06-10 in element: [[ChromeDriver: chrome on WINDOWS (e869812869f1ef937a760fcb479ecad9)] -> id: discontinued]
-2020-08-16 14:08:149 INFO  BaseClass :114 - Sony has been selected from available dropdown options
-2020-08-16 14:08:181 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (e869812869f1ef937a760fcb479ecad9)] -> css selector: input[type='submit']]
-2020-08-16 14:08:346 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (e869812869f1ef937a760fcb479ecad9)] -> css selector: input[type='submit']]
-2020-08-16 14:08:892 INFO  BaseClass :64 - Clicked on element: [[ChromeDriver: chrome on WINDOWS (e869812869f1ef937a760fcb479ecad9)] -> css selector: input[type='submit']]
-2020-08-16 14:08:64 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (e869812869f1ef937a760fcb479ecad9)] -> css selector: .alert-message]
-2020-08-16 14:08:175 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (e869812869f1ef937a760fcb479ecad9)] -> css selector: .alert-message]
-2020-08-16 14:08:215 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (e869812869f1ef937a760fcb479ecad9)] -> css selector: .alert-message]
-2020-08-16 14:08:295 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (e869812869f1ef937a760fcb479ecad9)] -> css selector: .alert-message]
-2020-08-16 14:08:296 INFO  BaseClass :97 - Success message is displayed
-2020-08-16 14:08:509 INFO  BaseClass :170 - Browser has been closed!!
+2020-08-19 12:08:47 INFO  Browser :82 - URL has been opened: http://computer-database.herokuapp.com/computers
+2020-08-19 12:08:304 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> id: add]
+2020-08-19 12:08:362 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> id: add]
+2020-08-19 12:08:724 INFO  BaseClass :65 - Clicked on element: Proxy element for: DefaultElementLocator 'By.id: add'
+2020-08-19 12:08:742 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> id: name]
+2020-08-19 12:08:781 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> id: name]
+2020-08-19 12:08:891 INFO  BaseClass :81 - Entered text: ASUS ROG 1 in element: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> id: name]
+2020-08-19 12:08:904 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> id: introduced]
+2020-08-19 12:08:936 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> id: introduced]
+2020-08-19 12:08:44 INFO  BaseClass :81 - Entered text: 2020-08-10 in element: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> id: introduced]
+2020-08-19 12:08:55 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> id: discontinued]
+2020-08-19 12:08:87 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> id: discontinued]
+2020-08-19 12:08:184 INFO  BaseClass :81 - Entered text: 2020-12-31 in element: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> id: discontinued]
+2020-08-19 12:08:286 INFO  BaseClass :115 - IBM has been selected from available dropdown options
+2020-08-19 12:08:300 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> css selector: input[type='submit']]
+2020-08-19 12:08:330 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> css selector: input[type='submit']]
+2020-08-19 12:08:263 INFO  BaseClass :65 - Clicked on element: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> css selector: input[type='submit']]
+2020-08-19 12:08:277 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> css selector: .alert-message]
+2020-08-19 12:08:308 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> css selector: .alert-message]
+2020-08-19 12:08:316 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> css selector: .alert-message]
+2020-08-19 12:08:344 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> css selector: .alert-message]
+2020-08-19 12:08:345 INFO  BaseClass :98 - Success message is displayed
+2020-08-19 12:08:952 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> id: add]
+2020-08-19 12:08:982 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> id: add]
+2020-08-19 12:08:321 INFO  BaseClass :65 - Clicked on element: Proxy element for: DefaultElementLocator 'By.id: add'
+2020-08-19 12:08:333 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> id: name]
+2020-08-19 12:08:363 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> id: name]
+2020-08-19 12:08:470 INFO  BaseClass :81 - Entered text: ASUS ROG 2 in element: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> id: name]
+2020-08-19 12:08:480 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> id: introduced]
+2020-08-19 12:08:509 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> id: introduced]
+2020-08-19 12:08:606 INFO  BaseClass :81 - Entered text: 2020-08-15 in element: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> id: introduced]
+2020-08-19 12:08:615 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> id: discontinued]
+2020-08-19 12:08:642 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> id: discontinued]
+2020-08-19 12:08:747 INFO  BaseClass :81 - Entered text: 2021-08-15 in element: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> id: discontinued]
+2020-08-19 12:08:847 INFO  BaseClass :115 - RCA has been selected from available dropdown options
+2020-08-19 12:08:855 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> css selector: input[type='submit']]
+2020-08-19 12:08:884 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> css selector: input[type='submit']]
+2020-08-19 12:08:536 INFO  BaseClass :65 - Clicked on element: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> css selector: input[type='submit']]
+2020-08-19 12:08:546 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> css selector: .alert-message]
+2020-08-19 12:08:577 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> css selector: .alert-message]
+2020-08-19 12:08:586 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> css selector: .alert-message]
+2020-08-19 12:08:612 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> css selector: .alert-message]
+2020-08-19 12:08:613 INFO  BaseClass :98 - Success message is displayed
+2020-08-19 12:08:951 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> id: add]
+2020-08-19 12:08:978 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> id: add]
+2020-08-19 12:08:319 INFO  BaseClass :65 - Clicked on element: Proxy element for: DefaultElementLocator 'By.id: add'
+2020-08-19 12:08:329 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> id: name]
+2020-08-19 12:08:361 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> id: name]
+2020-08-19 12:08:458 INFO  BaseClass :81 - Entered text: ASUS ROG 3 in element: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> id: name]
+2020-08-19 12:08:466 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> id: introduced]
+2020-08-19 12:08:495 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> id: introduced]
+2020-08-19 12:08:591 INFO  BaseClass :81 - Entered text: 2020-06-10 in element: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> id: introduced]
+2020-08-19 12:08:600 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> id: discontinued]
+2020-08-19 12:08:628 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> id: discontinued]
+2020-08-19 12:08:733 INFO  BaseClass :81 - Entered text: 2021-06-10 in element: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> id: discontinued]
+2020-08-19 12:08:809 INFO  BaseClass :115 - Sony has been selected from available dropdown options
+2020-08-19 12:08:817 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> css selector: input[type='submit']]
+2020-08-19 12:08:844 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> css selector: input[type='submit']]
+2020-08-19 12:08:485 INFO  BaseClass :65 - Clicked on element: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> css selector: input[type='submit']]
+2020-08-19 12:08:493 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> css selector: .alert-message]
+2020-08-19 12:08:523 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> css selector: .alert-message]
+2020-08-19 12:08:530 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> css selector: .alert-message]
+2020-08-19 12:08:556 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> css selector: .alert-message]
+2020-08-19 12:08:556 INFO  BaseClass :98 - Success message is displayed
+2020-08-19 12:08:91 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> id: searchbox]
+2020-08-19 12:08:121 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> id: searchbox]
+2020-08-19 12:08:250 INFO  BaseClass :81 - Entered text: ASUS ROG 1 in element: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> id: searchbox]
+2020-08-19 12:08:262 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> css selector: #searchsubmit]
+2020-08-19 12:08:296 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> css selector: #searchsubmit]
+2020-08-19 12:08:640 INFO  BaseClass :65 - Clicked on element: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> css selector: #searchsubmit]
+2020-08-19 12:08:681 INFO  AddComputerPage :130 - Found: ASUS ROG 1 in Computer Name search results
+2020-08-19 12:08:59 INFO  AddComputerPage :132 - Clicked on Computer Name: ASUS ROG 1
+2020-08-19 12:08:141 INFO  BaseClass :115 - RCA has been selected from available dropdown options
+2020-08-19 12:08:150 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> css selector: input[type='submit']]
+2020-08-19 12:08:179 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> css selector: input[type='submit']]
+2020-08-19 12:08:856 INFO  BaseClass :65 - Clicked on element: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> css selector: input[type='submit']]
+2020-08-19 12:08:866 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> css selector: .alert-message]
+2020-08-19 12:08:893 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> css selector: .alert-message]
+2020-08-19 12:08:900 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> css selector: .alert-message]
+2020-08-19 12:08:926 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> css selector: .alert-message]
+2020-08-19 12:08:926 INFO  BaseClass :98 - Success message is displayed
+2020-08-19 12:08:250 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> id: searchbox]
+2020-08-19 12:08:280 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> id: searchbox]
+2020-08-19 12:08:389 INFO  BaseClass :81 - Entered text: ASUS ROG 2 in element: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> id: searchbox]
+2020-08-19 12:08:399 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> css selector: #searchsubmit]
+2020-08-19 12:08:423 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> css selector: #searchsubmit]
+2020-08-19 12:08:770 INFO  BaseClass :65 - Clicked on element: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> css selector: #searchsubmit]
+2020-08-19 12:08:791 INFO  AddComputerPage :130 - Found: ASUS ROG 2 in Computer Name search results
+2020-08-19 12:08:106 INFO  AddComputerPage :132 - Clicked on Computer Name: ASUS ROG 2
+2020-08-19 12:08:195 INFO  BaseClass :115 - Sony has been selected from available dropdown options
+2020-08-19 12:08:203 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> css selector: input[type='submit']]
+2020-08-19 12:08:231 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> css selector: input[type='submit']]
+2020-08-19 12:08:917 INFO  BaseClass :65 - Clicked on element: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> css selector: input[type='submit']]
+2020-08-19 12:08:925 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> css selector: .alert-message]
+2020-08-19 12:08:953 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> css selector: .alert-message]
+2020-08-19 12:08:960 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> css selector: .alert-message]
+2020-08-19 12:08:988 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> css selector: .alert-message]
+2020-08-19 12:08:988 INFO  BaseClass :98 - Success message is displayed
+2020-08-19 12:08:315 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> id: searchbox]
+2020-08-19 12:08:343 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> id: searchbox]
+2020-08-19 12:08:441 INFO  BaseClass :81 - Entered text: ASUS ROG 3 in element: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> id: searchbox]
+2020-08-19 12:08:449 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> css selector: #searchsubmit]
+2020-08-19 12:08:477 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> css selector: #searchsubmit]
+2020-08-19 12:08:89 INFO  BaseClass :65 - Clicked on element: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> css selector: #searchsubmit]
+2020-08-19 12:08:112 INFO  AddComputerPage :130 - Found: ASUS ROG 3 in Computer Name search results
+2020-08-19 12:08:456 INFO  AddComputerPage :132 - Clicked on Computer Name: ASUS ROG 3
+2020-08-19 12:08:532 INFO  BaseClass :115 - IBM has been selected from available dropdown options
+2020-08-19 12:08:542 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> css selector: input[type='submit']]
+2020-08-19 12:08:572 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> css selector: input[type='submit']]
+2020-08-19 12:08:232 INFO  BaseClass :65 - Clicked on element: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> css selector: input[type='submit']]
+2020-08-19 12:08:240 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> css selector: .alert-message]
+2020-08-19 12:08:270 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> css selector: .alert-message]
+2020-08-19 12:08:280 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> css selector: .alert-message]
+2020-08-19 12:08:308 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> css selector: .alert-message]
+2020-08-19 12:08:308 INFO  BaseClass :98 - Success message is displayed
+2020-08-19 12:08:685 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> id: searchbox]
+2020-08-19 12:08:711 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> id: searchbox]
+2020-08-19 12:08:809 INFO  BaseClass :81 - Entered text: ASUS ROG 1 in element: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> id: searchbox]
+2020-08-19 12:08:816 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> css selector: #searchsubmit]
+2020-08-19 12:08:842 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> css selector: #searchsubmit]
+2020-08-19 12:08:178 INFO  BaseClass :65 - Clicked on element: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> css selector: #searchsubmit]
+2020-08-19 12:08:198 INFO  AddComputerPage :130 - Found: ASUS ROG 1 in Computer Name search results
+2020-08-19 12:08:521 INFO  AddComputerPage :132 - Clicked on Computer Name: ASUS ROG 1
+2020-08-19 12:08:535 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> css selector: .btn.danger]
+2020-08-19 12:08:562 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> css selector: .btn.danger]
+2020-08-19 12:08:199 INFO  BaseClass :65 - Clicked on element: Proxy element for: DefaultElementLocator 'By.cssSelector: .btn.danger'
+2020-08-19 12:08:207 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> css selector: .alert-message]
+2020-08-19 12:08:238 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> css selector: .alert-message]
+2020-08-19 12:08:245 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> css selector: .alert-message]
+2020-08-19 12:08:271 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> css selector: .alert-message]
+2020-08-19 12:08:272 INFO  BaseClass :98 - Success message is displayed
+2020-08-19 12:08:594 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> id: searchbox]
+2020-08-19 12:08:621 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> id: searchbox]
+2020-08-19 12:08:728 INFO  BaseClass :81 - Entered text: ASUS ROG 2 in element: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> id: searchbox]
+2020-08-19 12:08:735 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> css selector: #searchsubmit]
+2020-08-19 12:08:763 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> css selector: #searchsubmit]
+2020-08-19 12:08:115 INFO  BaseClass :65 - Clicked on element: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> css selector: #searchsubmit]
+2020-08-19 12:08:137 INFO  AddComputerPage :130 - Found: ASUS ROG 2 in Computer Name search results
+2020-08-19 12:08:469 INFO  AddComputerPage :132 - Clicked on Computer Name: ASUS ROG 2
+2020-08-19 12:08:478 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> css selector: .btn.danger]
+2020-08-19 12:08:507 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> css selector: .btn.danger]
+2020-08-19 12:08:198 INFO  BaseClass :65 - Clicked on element: Proxy element for: DefaultElementLocator 'By.cssSelector: .btn.danger'
+2020-08-19 12:08:209 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> css selector: .alert-message]
+2020-08-19 12:08:237 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> css selector: .alert-message]
+2020-08-19 12:08:244 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> css selector: .alert-message]
+2020-08-19 12:08:266 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> css selector: .alert-message]
+2020-08-19 12:08:267 INFO  BaseClass :98 - Success message is displayed
+2020-08-19 12:08:595 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> id: searchbox]
+2020-08-19 12:08:622 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> id: searchbox]
+2020-08-19 12:08:725 INFO  BaseClass :81 - Entered text: ASUS ROG 3 in element: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> id: searchbox]
+2020-08-19 12:08:733 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> css selector: #searchsubmit]
+2020-08-19 12:08:766 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> css selector: #searchsubmit]
+2020-08-19 12:08:109 INFO  BaseClass :65 - Clicked on element: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> css selector: #searchsubmit]
+2020-08-19 12:08:129 INFO  AddComputerPage :130 - Found: ASUS ROG 3 in Computer Name search results
+2020-08-19 12:08:452 INFO  AddComputerPage :132 - Clicked on Computer Name: ASUS ROG 3
+2020-08-19 12:08:462 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> css selector: .btn.danger]
+2020-08-19 12:08:492 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> css selector: .btn.danger]
+2020-08-19 12:08:182 INFO  BaseClass :65 - Clicked on element: Proxy element for: DefaultElementLocator 'By.cssSelector: .btn.danger'
+2020-08-19 12:08:191 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> css selector: .alert-message]
+2020-08-19 12:08:219 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> css selector: .alert-message]
+2020-08-19 12:08:226 INFO  WaitHelper :26 - Waiting for element to be visible on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> css selector: .alert-message]
+2020-08-19 12:08:252 INFO  WaitHelper :28 - Found Element on page: [[ChromeDriver: chrome on WINDOWS (7a34ed90084d392c3efc9c52460403c2)] -> css selector: .alert-message]
+2020-08-19 12:08:252 INFO  BaseClass :98 - Success message is displayed
+2020-08-19 12:08:686 INFO  BaseClass :175 - Browser has been closed!!
