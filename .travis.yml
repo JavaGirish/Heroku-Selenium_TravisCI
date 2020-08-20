@@ -1,7 +1,6 @@
-dist: trusty
 sudo: required
 language: java
-jdk: oraclejdk11
+jdk: oraclejdk13
       
 services:
 - xvfb
@@ -15,4 +14,5 @@ before_install:
   - sudo cp chromedriver /usr/bin
   
 script: 
-- mvn clean install
+- mvn clean
+- mvn test
