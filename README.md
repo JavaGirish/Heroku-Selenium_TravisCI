@@ -1,6 +1,7 @@
 # Heroku-Selenium_TravisCI
 
 [![Build Status](https://travis-ci.org/JavaGirish/Heroku-Selenium_TravisCI.svg?branch=master)](https://travis-ci.org/JavaGirish/Heroku-Selenium_TravisCI)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=JavaGirish_Heroku-Selenium_TravisCI&metric=alert_status)](https://sonarcloud.io/dashboard?id=JavaGirish_Heroku-Selenium_TravisCI)
 
 
 Selenium, TestNG based framework designed using POM design pattern with Page factory. <br>
